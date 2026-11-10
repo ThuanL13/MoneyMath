@@ -22,6 +22,7 @@ public class Main {
             System.out.println("BigDecimal: " + bigDecimalVariable);
             System.out.println();
         }
+
         // Setting variables back to 0
         floatVariable = 0.0f;
         doubleVariable = 0.0;
@@ -33,10 +34,10 @@ public class Main {
             doubleVariable += 19.99;
             bigDecimalVariable = bigDecimalVariable.add(new BigDecimal("19.99"));
 
-            System.out.println("Float(1000x): " + floatVariable);
-            System.out.println("Double(1000x): " + doubleVariable);
-            System.out.println("BigDecimal(1000x): " + bigDecimalVariable);
-            System.out.println();
         }
+        System.out.println("Float(1000x): " + floatVariable);
+        System.out.println("Double(1000x): " + doubleVariable);
+        System.out.println("BigDecimal(1000x): " + bigDecimalVariable);
+        System.out.println();
     }
 }
